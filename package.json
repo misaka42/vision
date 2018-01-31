@@ -1,0 +1,16 @@
+{
+  "name": "vision",
+  "version": "0.0.1",
+  "description": "game of dynamic vision",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build src/index.js -d lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.5.1"
+  }
+}
