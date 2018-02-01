@@ -11,6 +11,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "hyperapp": "^1.0.2",
     "parcel-bundler": "^1.5.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-preset-env": "^1.6.1"
   }
 }

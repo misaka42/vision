@@ -1,0 +1,11 @@
+.game-container {
+    position: relative;
+}
+
+.tile-container {
+    position: relative;
+}
+
+.tile-container .tile {
+    position: absolute;
+}
