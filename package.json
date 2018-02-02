@@ -1,6 +1,6 @@
 {
   "name": "game-vision",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "game of dynamic vision",
   "main": "lib/index.js",
   "scripts": {
