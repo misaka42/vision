@@ -1,6 +1,4 @@
 import { h, app } from "hyperapp";
-
-import "./index.css";
 import TileContainer from "./tile-container";
 
 const __STYLE_TAG_ID = "__vision_style";

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build src/index.js -d lib"
+    "build": "rollup -c",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "MIT",
@@ -16,6 +17,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
-    "babel-preset-env": "^1.6.1"
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-node-resolve": "^3.0.2"
   }
 }
